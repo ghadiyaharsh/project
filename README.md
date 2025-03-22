@@ -12,3 +12,5 @@ A simple Python-based text-to-speech (TTS) program using `pyttsx3`.
    ```sh
    git clone https://github.com/yourusername/RoboSpeaker.git
    cd RoboSpeaker
+2. Install required dependencies:
+   pip install -r requirements.txt
