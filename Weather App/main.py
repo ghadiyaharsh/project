@@ -19,6 +19,7 @@ print(weatherdic["current"]["pressure_mb"])
 print(weatherdic["current"]["pressure_in"])
 print(weatherdic["current"]["precip_mm"])
 print(weatherdic["current"]["precip_in"])
+
 #if we ant to listen the temperature of the city we use the text to speech
 import pyttsx3
 harshg = pyttsx3.init()
