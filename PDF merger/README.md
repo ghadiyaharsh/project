@@ -4,11 +4,10 @@ This project merges multiple PDF files into a single PDF using Python and the Py
 
 📂 Project Structure
 PDF merger/
-│
-├── pdf1.pdf
-├── pdf2.pdf
-├── merged.pdf # Output file
-└── merge_pdf.py # Python script to merge PDFs
+pdf1.pdf
+pdf2.pdf
+merged.pdf # Output file
+merge_pdf.py # Python script to merge PDFs
 
 
 📌 Features
