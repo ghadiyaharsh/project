@@ -1,13 +1,15 @@
-# RoboSpeaker 🔊  
+RoboSpeaker 🔊  
 
 A simple Python-based text-to-speech (TTS) program using `pyttsx3`.  
 
-## 🚀 Features
+🚀 Features
 - Converts text to speech
-- Supports multiple voices
+- Adjustable speech rate and volume
 - Works offline
+- Easy to use command-line interface
+- save  speech into Audio file - .mp3
 
-## 🛠 Installation
+🛠 Installation
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/RoboSpeaker.git
