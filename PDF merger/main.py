@@ -7,10 +7,8 @@ pdfiles = [                                                          # List of P
 ]
 
 merger = PyPDF2.PdfMerger()         # Creating a PdfMerger object to handle the merging process
-
-
-
-for pdf in pdfiles:                # Looping through each PDF file in the list
+# The PdfMerger object allows us to merge multiple PDF files into one
+for pdf in pdfiles:                                                 # Looping through each PDF file in the list
     with open(pdf, 'rb') as pdfFile:                                # Open the PDF file in binary read mode
         merger.append(pdfFile)                                      # Appending the PDF file to the merger object
 merger.write('d:/pii/PYP-Project/project/PDF merger/merged.pdf')    # Writing the merged PDF to a new file
